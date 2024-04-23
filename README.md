@@ -6,5 +6,5 @@ alter session set container = xepdb1;
 @apxchpwd.sql
 -- restarting process --
 ALTER USER APEX_PUBLIC_USER ACCOUNT UNLOCK;
-ALTER USER APEX_PUBLIC_USER IDENTIFIED BY **password**
+ALTER USER APEX_PUBLIC_USER IDENTIFIED BY (password)
 @apex_rest_config.sql
