@@ -1,6 +1,6 @@
------ Oracle APEX Installation -----
+### --- Oracle APEX Installation ---
 
-sqlplus / as sysdba
+sqlplus / as sysdba <br>
 alter session set container = xepdb1;
 @apexins.sql SYSAUX SYSAUX TEMP /i/
 @apxchpwd.sql
